@@ -23,7 +23,7 @@ const calculateServiceFee = (amount, serviceType) => { // make a constant functi
         fee = amount * 0.15;
     } else if (serviceType = "Standard") {
         fee = amount * 0.10;
-    } else if (serviceType = "Basic") {
+    } else if (serviceType = "Basic") { //
         fee = amount * 0.05;
     }
     console.log("Service Fee: $", fee);
